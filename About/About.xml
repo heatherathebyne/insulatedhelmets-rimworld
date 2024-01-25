@@ -7,6 +7,8 @@
 This simple XML-only mod adds two new stuffable apparel items: insulated (simple) helmet and insulated flak helmet. The new recipes take an additional 20 fabric or leathery resources to work their heat-holding magic. As a stuffable, stats will be based on the textile used for insulation. Any modded fabric or leathery resource should work too.
 
 Due to limitations in the recipe system, steel is required for these helmets and cannot be replaced by plasteel or any modded metallic resource.
+
+Source available at https://github.com/heatherathebyne/insulatedhelmets-rimworld .
 </description>
   <author>HeatherAthebyne</author>
   <supportedVersions>
