@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>Insulated Helmets</name>
+  <description>Stuff some warm stuff in a cold metal hat to make a warm metal hat. Works for simple helmets and flak helmets.
+
+This simple XML-only mod adds two new stuffable apparel items: insulated (simple) helmet and insulated flak helmet. The new recipes take an additional 20 fabric or leathery resources to work their heat-holding magic. As a stuffable, stats will be based on the textile used for insulation. Any modded fabric or leathery resource should work too.
+
+Due to limitations in the recipe system, steel is required for these helmets and cannot be replaced by plasteel or any modded metallic resource.
+</description>
+  <author>HeatherAthebyne</author>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <packageId>heatherathebyne.insulatedhelmets</packageId>
+</ModMetaData>

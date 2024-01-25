@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="IH_InsulatedHelmetBase">
+    <defName>IH_Apparel_InsulatedHelmet</defName>
+    <label>insulated helmet</label>
+    <description>A simple textile-lined helmet which gives moderate protection against sharp attacks. Not effective against blunt weapons.</description>
+
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+
+    <costList>
+      <Steel>40</Steel>
+    </costList>
+
+    <statBases>
+      <WorkToMake>5200</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>2.1</Mass>
+      <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+      <displayPriority>201</displayPriority>
+    </recipeMaker>
+
+    <tradeTags>
+      <li>Clothing</li>
+      <li>Armor</li>
+    </tradeTags>
+
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/SimpleHelmet/SimpleHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/SimpleHelmet/SimpleHelmet</wornGraphicPath>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="IH_InsulatedHelmetBase">
+    <defName>IH_Apparel_InsulatedFlakHelmet</defName>
+    <label>insulated flak helmet</label>
+    <description>A lightweight textile-lined combat helmet with a complex design, reinforced with plasteel. Not effective against blunt weapons.</description>
+
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+
+    <costList>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Plasteel>10</Plasteel>
+      <Steel>40</Steel>
+    </costList>
+
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1.3</Mass>
+      <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <displayPriority>206</displayPriority>
+    </recipeMaker>
+
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/AdvancedHelmet/AdvancedHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/AdvancedHelmet/AdvancedHelmet</wornGraphicPath>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+</Defs>
