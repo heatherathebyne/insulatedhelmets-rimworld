@@ -9,11 +9,14 @@ This simple XML-only mod adds two new stuffable apparel items: insulated (simple
 Due to limitations in the recipe system, steel is required for these helmets and cannot be replaced by plasteel or any modded metallic resource.
 
 Source available at https://github.com/heatherathebyne/insulatedhelmets-rimworld .
+
+If you'd like to support me, consider purchasing something from [url=https://shop.athebyne.com]my Etsy shop[/url]! I make unique garment buttons, and also offer PDF embroidery patterns, jewelry, and yarn spinning fiber.
 </description>
   <author>HeatherAthebyne</author>
   <supportedVersions>
     <li>1.4</li>
     <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
   <packageId>heatherathebyne.insulatedhelmets</packageId>
 </ModMetaData>
